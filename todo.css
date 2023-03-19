@@ -1,0 +1,51 @@
+
+body {
+    background-color: #F7FFF7;
+  }
+  
+  .mytodo-container {
+    width: 320px;
+    margin: 100px auto;
+    font-family: cursive;
+  }
+  
+  .mytodo-container th {
+    color: #1E3D33;
+  }
+  
+  .mytodo-container td {
+    color: #0E2723;
+  }
+  
+  .mytodo-container input[type='submit'],
+  .mytodo-container button,
+  .mytodo-container #close {
+    cursor: pointer;
+    background-color: #1E3D33;
+    color: #F7FFF7;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .mytodo-container input[type='submit']:hover,
+  .mytodo-container button:hover,
+  .mytodo-container #close:hover {
+    background-color: #0E2723;
+  }
+  
+  .mytodo-container #close {
+    float: right;
+  }
+  
+  .mytodo-container #UpdateForm {
+    display:none;
+  }
+  
+  .mytodo-container #counter {
+    margin: 10px 0;
+    color: #1E3D33;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Todo List</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <section class="mytodo-container">
+    
+	</style>
+</head>
+<body>
+	<h1>Routine</h1>
+    <!-- This portion of the code has three elements 
+    including a label with the text update task. Then a submit button
+  with the the text save and a button with the text cancel.
+This is what allows users to update a task ans save the changes or cancel the update.
+ -->
+    <form id="update-form">
+      <label for="update-task">Update Task:</label>
+      <input type="text" id="update-task" required>
+      <button type="submit">Save</button>
+      <button type="button" id="cancel-update">Cancel</button>
+    </form>
+
+    <p id="counter"></p>
+
+    <!-- This portion of the code has a header section with tasks and actions
+    The body section conrains the actual task.  -->
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="mytodo-tasks">
+        <!-- This portion of the code has the HTML code to display the task
+        and also an image! and a link to the javascript code.-->
+      </tbody>
+    </table>
+
+    <form id="add-form">
+      <label for="add-task">Add Task:</label>
+      <input type="text" id="add-task" required>
+      <button type="submit">Add</button>
+    </form>
+    <img src="routine2.jpg" alt="todolistimage">
+
+
+  </section>
+
+  <script src="todo.js"></script>
+</body>
+</html>
